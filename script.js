@@ -1,5 +1,4 @@
-
-function mostrarMensagem() {
+document.getElementById('btnEnviar').addEventListener('click', function() {
   const nome = document.getElementById('nome').value;
   const mensagem = document.getElementById('mensagem');
   
@@ -8,4 +7,4 @@ function mostrarMensagem() {
   } else {
     mensagem.textContent = `Olá ${nome}, é um prazer te conhecer!`;
   }
-}
+});
